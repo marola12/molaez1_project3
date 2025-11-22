@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title>Cancun Map</title>
+  <link rel="stylesheet" href="css/map.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div id="page-wrapper">
+    <header id="header">
+      <h1>Cancun Map</h1>
+    </header>
+
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="page3.html">Video Profile</a></li>
+        <li><a href="map.html">Cancun Map</a></li>
+      </ul>
+    </nav>
+
+    <main id="content-wrapper">
+      <div id="main-content">
+        <h2>My Cancun Vacation Spots</h2>
+        <p>This map shows the beautiful locations I visited in Cancun!</p>
+
+        <div id="googleMap"></div>
+
+        <div style="text-align:center; margin: 20px;">
+          <button id="questions-btn">Questions?</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap" async defer></script>
+
+</body>
+</html>
